@@ -43,5 +43,3 @@ else:
 
 print("You got " + str(score) + "question correct!")
 print("You got " + str((score / 4) * 100) + "%")
-print("Thanks for participating")
-print("Goodbye!")
