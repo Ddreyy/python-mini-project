@@ -12,7 +12,6 @@ player_name = input("Enter your name ")
 
 print("okay! let's play :)")
 score = 0
-
 answer = input("what does CPU stand for? ")
 if answer.lower() == "central processing unit":
     print('Correct!')
@@ -43,4 +42,5 @@ else:
     print("Incorrect!")
 
 print("You got " + str(score) + "question correct!")
-print("You got " + str((score / 4) * 100) + "%")    
+print("You got " + str((score / 4) * 100) + "%")
+print("Thanks for participating")
